@@ -48,7 +48,7 @@ body {
 }
 
 /* Media query for screens smaller than 600px */
-@media (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 
   .imagem-inicial{
     max-width:80%;
