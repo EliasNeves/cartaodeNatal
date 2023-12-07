@@ -5,7 +5,7 @@
 
 body {
   background-color: green;
-  font-family: 'Poppins', sans-serif;
+  font-family:'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   display: flex;
@@ -49,13 +49,24 @@ body {
 
 /* Media query for screens smaller than 600px */
 @media (max-width: 600px) {
+
+  .imagem-inicial{
+    max-width:80%;
+    display: block;
+    margin: 0 auto;
+  }
+
   .titulo-inicial, .titulo-final {
-    font-size: 18px;
+    max-width:80%;
+    font-size:22px;
+    text-align: center;
   }
 
   .textinho {
-    
+    font-size: 14px;
+    text-align:start;
     font-size:25px;
+    line-height: 1.3;
   }
 }
 
