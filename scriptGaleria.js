@@ -1,9 +1,4 @@
-document.getElementById('playButton').addEventListener('click', function() {
-    // Redireciona para outra página
-    window.location.href = 'cartão.html'; // Substitua 'outra_pagina.html' pelo caminho da página para onde você quer redirecionar
-  });
-  
-  const prevButton = document.querySelector('.prevButton');
+const prevButton = document.querySelector('.prevButton');
 const nextButton = document.querySelector('.nextButton');
 const gallery = document.querySelector('.gallery');
 
